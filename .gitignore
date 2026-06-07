@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# IDE and Project OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local Environment Secrets
+.env
+local_brief.json

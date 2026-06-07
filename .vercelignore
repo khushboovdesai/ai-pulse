@@ -1,0 +1,12 @@
+# Ignore Python dependencies and virtual environments
+.venv/
+venv/
+__pycache__/
+
+# Ignore Python script & tests
+scripts/
+tests/
+pyproject.toml
+
+# Ignore testing caches
+.pytest_cache/
