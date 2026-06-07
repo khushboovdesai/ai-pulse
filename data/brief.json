@@ -1,0 +1,251 @@
+{
+  "updated_at": "2026-06-07T06:00:00Z",
+  "growth_news": [
+    {
+      "id": "growth-1",
+      "title": "Schools Worldwide Adopt AI Tutors to Help Kids Learn Math",
+      "description": "Interactive AI teachers are helping students learn at their own pace, making math feel like playing a video game. Kids are scoring higher and having way more fun!",
+      "source": "EduTech Weekly",
+      "url": "https://example.com/ai-tutors"
+    },
+    {
+      "id": "growth-2",
+      "title": "AI Valuation Surpasses Traditional Tech Giants",
+      "description": "The rapid expansion of AI startups shows how much people believe in this technology. Investors are pouring support into tools that help design new websites, cure diseases, and create music.",
+      "source": "TechCrunch",
+      "url": "https://example.com/ai-valuation"
+    },
+    {
+      "id": "growth-3",
+      "title": "AI Helps Doctors Detect Rare Diseases in Minutes Instead of Years",
+      "description": "By analyzing medical scans alongside thousands of library documents, AI assistants are helping pediatricians spot rare health conditions early, saving lives around the globe.",
+      "source": "Health Science Digest",
+      "url": "https://example.com/ai-medical"
+    },
+    {
+      "id": "growth-3",
+      "title": "Green AI: Researchers Design Energy-Saving Computer Chips",
+      "description": "Scientists have created new computer parts that mimic biological brains. These neuromorphic chips run complex AI programs using less electricity than a household nightlight!",
+      "source": "CleanTech News",
+      "url": "https://example.com/green-ai"
+    }
+  ],
+  "tech_news": [
+    {
+      "id": "tech-1",
+      "title": "Mamba and SSMs Offer Faster Alternatives to Transformers",
+      "description": "Scientists are developing 'State Space Models' that process huge texts in linear time, resolving the quadratic math slowdowns of original attention mechanisms.",
+      "source": "AI Research Institute",
+      "url": "https://example.com/ssm-mamba"
+    },
+    {
+      "id": "tech-2",
+      "title": "On-Device AI Runs Super Fast Without Internet Connections",
+      "description": "By compressing model weights through a trick called 'quantization', mobile phones can now run complex reasoning engines locally in under 100 milliseconds.",
+      "source": "Silicon Report",
+      "url": "https://example.com/local-llm"
+    },
+    {
+      "id": "tech-3",
+      "title": "Analog Neural Network Chips Simulate Real Brain Synapses",
+      "description": "Engineers are moving away from digital ones and zeros by building chips that process electrical current strengths, mimicking biological neural connections.",
+      "source": "Hardware Frontiers",
+      "url": "https://example.com/analog-chips"
+    }
+  ],
+  "jargons": [
+    {
+      "id": "neural_network",
+      "term": "Neural Network",
+      "definition": "A computer brain inspired by the human mind, made of nodes (neurons) that connect and pass information to solve puzzles.",
+      "example": "Like a chain of friends guessing a drawing: the first friend looks at outlines, the second identifies shapes, and the third guesses the object.",
+      "use_case": "Self-driving cars recognizing stop signs, or smart cameras detecting faces in photos."
+    },
+    {
+      "id": "self_attention",
+      "term": "Self-Attention",
+      "definition": "A trick that helps a model look at a whole sentence and figure out how different words connect to each other.",
+      "example": "In 'The animal didn't cross the street because IT was too tired,' attention weights connect 'IT' back to the 'animal', not the 'street'.",
+      "use_case": "Language translators (like Google Translate) knowing which words are describing who or what."
+    },
+    {
+      "id": "rag",
+      "term": "RAG (Retrieval-Augmented Generation)",
+      "definition": "Giving an AI a custom open-book library to look up facts before it tries to answer a question.",
+      "example": "Instead of guessing the rules of a new game from memory, you open the instruction booklet first to read the exact rules, then explain it.",
+      "use_case": "An AI school assistant looking up the exact lunch menu from a school's private spreadsheet."
+    },
+    {
+      "id": "reinforcement_learning",
+      "term": "Reinforcement Learning",
+      "definition": "Teaching a virtual robot by giving it positive points (rewards) for good moves and minus points (penalties) for bad ones.",
+      "example": "Training a puppy: you give him a dog treat when he sits, and ignore him if he jumps. Eventually, he learns that sitting is the best option!",
+      "use_case": "Training robot dogs to walk over rocks, or teaching chess programs (like AlphaZero) to beat grandmasters."
+    },
+    {
+      "id": "fine_tuning",
+      "term": "Fine-Tuning",
+      "definition": "Taking a smart general AI and teaching it extra specialized lessons to make it an expert in one topic.",
+      "example": "Taking a high-school graduate who knows basic writing, and sending them to medical school so they learn how to write prescriptions.",
+      "use_case": "Teaching a general language model how to write code in a specific new programming language."
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool-1",
+      "name": "Cursor",
+      "tagline": "The AI-First Code Editor",
+      "trending_factor": "Helps you write software by predicting what you want to build and editing multiple files simultaneously.",
+      "url": "https://cursor.sh"
+    },
+    {
+      "id": "tool-2",
+      "name": "NotebookLM",
+      "tagline": "Your Personal Smart Notebook",
+      "trending_factor": "Reads your text documents and automatically generates a fun, two-person podcast audio discussing your notes.",
+      "url": "https://notebooklm.google"
+    },
+    {
+      "id": "tool-3",
+      "name": "v0 by Vercel",
+      "tagline": "Generative User Interfaces",
+      "trending_factor": "Creates fully coded, stylized website pages in seconds just from a simple text description.",
+      "url": "https://v0.dev"
+    },
+    {
+      "id": "tool-4",
+      "name": "Midjourney",
+      "tagline": "Stunning Image Generator",
+      "trending_factor": "Turn text prompts into highly photorealistic digital paintings and posters with high text accuracy.",
+      "url": "https://midjourney.com"
+    },
+    {
+      "id": "tool-5",
+      "name": "ElevenLabs",
+      "tagline": "Realistic AI Voices",
+      "trending_factor": "Synthesizes expressive voiceover files with emotional controls in dozens of languages.",
+      "url": "https://elevenlabs.io"
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude 3.5 Sonnet",
+      "developer": "Anthropic",
+      "parameters": "~1.5 Trillion (est)",
+      "context_window": "200,000",
+      "mmlu_score": 88.7,
+      "cost_per_million": 3.00
+    },
+    {
+      "name": "GPT-4o",
+      "developer": "OpenAI",
+      "parameters": "~1.8 Trillion (est)",
+      "context_window": "128,000",
+      "mmlu_score": 88.7,
+      "cost_per_million": 5.00
+    },
+    {
+      "name": "Gemini 1.5 Pro",
+      "developer": "Google",
+      "parameters": "~1.2 Trillion (est)",
+      "context_window": "2,000,000",
+      "mmlu_score": 85.9,
+      "cost_per_million": 7.00
+    },
+    {
+      "name": "Llama 3 70B",
+      "developer": "Meta",
+      "parameters": "70 Billion",
+      "context_window": "8,000",
+      "mmlu_score": 82.0,
+      "cost_per_million": 0.15
+    },
+    {
+      "name": "Mistral Large 2",
+      "developer": "Mistral",
+      "parameters": "123 Billion",
+      "context_window": "128,000",
+      "mmlu_score": 84.0,
+      "cost_per_million": 3.00
+    }
+  ],
+  "courses": [
+    {
+      "title": "Generative AI for Everyone",
+      "provider": "DeepLearning.AI",
+      "instructor": "Andrew Ng",
+      "level": "Beginner",
+      "duration": "6 Hours",
+      "url": "https://www.coursera.org/learn/generative-ai-for-everyone"
+    },
+    {
+      "title": "Introduction to Generative AI",
+      "provider": "Google Cloud",
+      "instructor": "Google Engineers",
+      "level": "Beginner",
+      "duration": "1 Hour",
+      "url": "https://www.cloudskillsboost.google/course_templates/536"
+    },
+    {
+      "title": "Machine Learning Specialization",
+      "provider": "Stanford & DeepLearning.AI",
+      "instructor": "Andrew Ng",
+      "level": "Beginner",
+      "duration": "40 Hours",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+    },
+    {
+      "title": "Practical Deep Learning for Coders",
+      "provider": "Fast.ai",
+      "instructor": "Jeremy Howard",
+      "level": "Intermediate",
+      "duration": "20 Hours",
+      "url": "https://course.fast.ai"
+    },
+    {
+      "title": "CS224N: Deep Learning for NLP",
+      "provider": "Stanford University",
+      "instructor": "Christopher Manning",
+      "level": "Advanced",
+      "duration": "30 Hours",
+      "url": "https://web.stanford.edu/class/cs224n"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Anthropic Research: Model Interpretability",
+      "author": "Interpretability Team",
+      "site": "Anthropic Blog",
+      "read_time": "12 Min",
+      "url": "https://www.anthropic.com/news/mapping-mind-language-model"
+    },
+    {
+      "title": "Introducing GPT-4o: Omni Capabilities",
+      "author": "OpenAI Team",
+      "site": "OpenAI News",
+      "read_time": "8 Min",
+      "url": "https://openai.com/index/hello-gpt-4o"
+    },
+    {
+      "title": "Andrej Karpathy: Intro to Large Language Models",
+      "author": "Andrej Karpathy",
+      "site": "YouTube/Medium",
+      "read_time": "60 Min Video",
+      "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+    },
+    {
+      "title": "Hugging Face: Fine-Tuning Llama 3 with LoRA",
+      "author": "Philipp Schmid",
+      "site": "Hugging Face Blog",
+      "read_time": "15 Min",
+      "url": "https://huggingface.co/blog/llama3-fine-tuning"
+    },
+    {
+      "title": "The Gradient: Debating AI Timelines",
+      "author": "Editorial Board",
+      "site": "The Gradient",
+      "read_time": "18 Min",
+      "url": "https://thegradient.pub"
+    }
+  ]
+}
