@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse | Interactive AI Playgrounds & Daily Brief</title>
+  <meta name="description" content="A fun, highly interactive daily AI brief and playground designed for kids and curious minds to explore artificial intelligence.">
+  
+  <!-- FOUC Prevention & Theme Initializer -->
+  <meta name="color-scheme" content="dark light">
+  <script>
+    {
+      const colorScheme = localStorage.getItem("color-scheme");
+      if (colorScheme) {
+        document.querySelector('meta[name="color-scheme"]').content = colorScheme;
+        document.documentElement.setAttribute('data-theme', colorScheme);
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Outfit (headings) and Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Local CSS Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Outer Glow Particles for retro-future visual depth -->
+  <div class="decorations" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+  </div>
+
+  <header class="app-header">
+    <div class="header-branding">
+      <div class="logo-wrapper">
+        <span class="logo-emoji">🤖</span>
+        <span class="logo-flash">⚡</span>
+      </div>
+      <div>
+        <h1 class="app-title">AI Pulse</h1>
+        <p class="app-subtitle">Your interactive playground & daily brief to master AI!</p>
+      </div>
+    </div>
+    
+    <div class="header-controls">
+      <!-- Last updated status -->
+      <span class="pulse-badge" id="update-time">Loading brief...</span>
+      
+      <!-- Theme toggle -->
+      <button class="control-btn" id="theme-toggle" aria-label="Toggle dark/light theme" type="button">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Sticky Navigation bar -->
+  <nav class="app-nav" aria-label="Main Navigation">
+    <div class="nav-tabs" role="tablist">
+      <button class="nav-tab active" id="tab-brief" role="tab" aria-selected="true" aria-controls="panel-brief" type="button">
+        <span class="tab-icon">📰</span> Daily Brief
+      </button>
+      <button class="nav-tab" id="tab-sandbox" role="tab" aria-selected="false" aria-controls="panel-sandbox" type="button">
+        <span class="tab-icon">🎮</span> Jargon Playgrounds
+      </button>
+      <button class="nav-tab" id="tab-models" role="tab" aria-selected="false" aria-controls="panel-models" type="button">
+        <span class="tab-icon">📊</span> Models & Metrics
+      </button>
+      <button class="nav-tab" id="tab-resources" role="tab" aria-selected="false" aria-controls="panel-resources" type="button">
+        <span class="tab-icon">🎓</span> Learning & Blogs
+      </button>
+    </div>
+  </nav>
+
+  <main class="app-content">
+
+    <!-- TAB 1: DAILY BRIEF PANEL -->
+    <section class="tab-panel active" id="panel-brief" role="tabpanel" aria-labelledby="tab-brief">
+      <div class="panel-header">
+        <h2>Today's AI Pulse Brief ⚡</h2>
+        <p>Curated and simplified updates to keep you informed about what's happening in AI today.</p>
+      </div>
+
+      <!-- Quick Summary Overview Card -->
+      <div class="overview-highlights card-glass">
+        <div class="highlight-item" data-action="scroll-brief">
+          <span class="highlight-icon">📰</span>
+          <div class="highlight-text">
+            <strong>Daily Brief & Tools</strong>
+            <span>🌱 Growth news, 🚀 tech breakthroughs, and 🔥 trending AI software.</span>
+          </div>
+        </div>
+        <div class="highlight-item" data-action="tab-sandbox">
+          <span class="highlight-icon">🎮</span>
+          <div class="highlight-text">
+            <strong>Jargon Playgrounds</strong>
+            <span>🤖 Play with Neural Net, Attention, RAG, and Q-Learning robot simulations!</span>
+          </div>
+        </div>
+        <div class="highlight-item" data-action="tab-models">
+          <span class="highlight-icon">📊</span>
+          <div class="highlight-text">
+            <strong>Model Benchmarks</strong>
+            <span>📈 Compare LLM sizes, context windows, parameters, and costs.</span>
+          </div>
+        </div>
+        <div class="highlight-item" data-action="tab-resources">
+          <span class="highlight-icon">🎓</span>
+          <div class="highlight-text">
+            <strong>Learning Hub</strong>
+            <span>📚 Find beginner courses and read curated AI developer blogs.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="brief-grid">
+        <!-- Growth News Section -->
+        <div class="news-column card-glass">
+          <div class="column-header">
+            <h3>🌱 Top 3 AI Growth News</h3>
+            <span class="category-badge growth">Progress</span>
+          </div>
+          <div class="news-list" id="growth-news-container">
+            <!-- Dynamically populated -->
+            <div class="loading-state">Cooking the latest news...</div>
+          </div>
+        </div>
+
+        <!-- Tech News Section -->
+        <div class="news-column card-glass">
+          <div class="column-header">
+            <h3>🚀 Top 3 AI Tech News</h3>
+            <span class="category-badge tech">Engineering</span>
+          </div>
+          <div class="news-list" id="tech-news-container">
+            <!-- Dynamically populated -->
+            <div class="loading-state">Decoding technical breakthroughs...</div>
+          </div>
+        </div>
+
+        <!-- Tools Section -->
+        <div class="news-column card-glass">
+          <div class="column-header">
+            <h3>🔥 Trending AI Tools</h3>
+            <span class="category-badge warning">Trending</span>
+          </div>
+          <div class="news-list" id="trending-tools-container">
+            <!-- Dynamically populated -->
+            <div class="loading-state">Curating popular software...</div>
+          </div>
+        </div>
+
+        <!-- Free Courses Column (4th Section) -->
+        <div class="news-column card-glass">
+          <div class="column-header">
+            <h3>🎁 Top 3 Free Courses</h3>
+            <span class="category-badge growth">Courses</span>
+          </div>
+          <div class="news-list" id="brief-courses-container">
+            <!-- Dynamically populated -->
+            <div class="loading-state">Loading learning resources...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: JARGON PLAYGROUNDS PANEL -->
+    <section class="tab-panel" id="panel-sandbox" role="tabpanel" aria-labelledby="tab-sandbox" hidden>
+      <div class="panel-header">
+        <h2>AI Jargon Sandboxes 🎮</h2>
+        <p>AI has lots of big words. Select a jargon below to play with an interactive simulation and learn how it actually works!</p>
+      </div>
+
+      <!-- Jargon Selector Tabs -->
+      <div class="jargon-nav">
+        <button class="jargon-btn active" data-jargon="neural_network" type="button">🤖 Neural Net</button>
+        <button class="jargon-btn" data-jargon="self_attention" type="button">🔍 Attention</button>
+        <button class="jargon-btn" data-jargon="rag" type="button">📚 RAG</button>
+        <button class="jargon-btn" data-jargon="reinforcement_learning" type="button">👾 Robot RL</button>
+        <button class="jargon-btn" data-jargon="fine_tuning" type="button">⚙️ Fine-Tuning</button>
+      </div>
+
+      <div class="sandbox-container">
+        <!-- Interactive Canvas / Viewport Area -->
+        <div class="sandbox-display card-glass">
+          
+          <!-- Sandbox 1: Neural Network MLP -->
+          <div class="sandbox-view active" id="view-neural_network">
+            <div class="sandbox-controls">
+              <div>
+                <button class="game-btn primary" id="nn-fire-btn" type="button">⚡ Fire Activation Pulse</button>
+                <button class="game-btn secondary" id="nn-add-node" type="button">➕ Add Hidden Neuron</button>
+                <button class="game-btn secondary" id="nn-reset" type="button">🔄 Reset Network</button>
+              </div>
+              <span class="game-hint">Click inside the canvas to trigger localized activation pulses manually!</span>
+            </div>
+            <div class="canvas-container">
+              <canvas id="nn-canvas" width="750" height="380"></canvas>
+            </div>
+          </div>
+
+          <!-- Sandbox 2: Self-Attention -->
+          <div class="sandbox-view" id="view-self_attention">
+            <div class="sandbox-controls">
+              <div class="attention-heads-selectors">
+                <span class="control-label">Select Attention Head:</span>
+                <button class="game-btn active" data-head="0" type="button">🔴 Head 1 (Subject focus)</button>
+                <button class="game-btn" data-head="1" type="button">🔵 Head 2 (Action focus)</button>
+              </div>
+              <span class="game-hint">Hover over individual words in the sentence below to see which other words the AI focuses on!</span>
+            </div>
+            
+            <div class="attention-playground">
+              <!-- Visual Connection Map -->
+              <div class="attention-viz-wrapper">
+                <svg id="attention-svg" width="700" height="200"></svg>
+              </div>
+              <!-- Hover Words Container -->
+              <div class="attention-sentence" id="attention-sentence-words">
+                <!-- Dynamically written -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Sandbox 3: RAG (Retrieval-Augmented Generation) -->
+          <div class="sandbox-view" id="view-rag">
+            <div class="sandbox-controls">
+              <div class="rag-inputs">
+                <input type="text" class="game-input" id="rag-query" placeholder="Ask about 'robot battery' or 'space rocks'..." value="Where is my robot battery?">
+                <button class="game-btn primary" id="rag-submit-btn" type="button">🔍 Query RAG Database</button>
+              </div>
+              <span class="game-hint">Watch how the query fetches custom books from the vault to answer!</span>
+            </div>
+            
+            <div class="rag-flow-board">
+              <!-- Grid showing steps -->
+              <div class="rag-steps-grid">
+                <div class="rag-step-card" id="rag-step-1">
+                  <div class="step-num">1</div>
+                  <h4>Embed Query</h4>
+                  <p class="step-desc">Convert search question into vector numbers.</p>
+                  <div class="step-indicator" id="rag-ind-1">🤖 [?, ?, ?]</div>
+                </div>
+                <div class="rag-step-card" id="rag-step-2">
+                  <div class="step-num">2</div>
+                  <h4>Vector Lookup</h4>
+                  <p class="step-desc">Search custom library index for close matches.</p>
+                  <div class="step-indicator" id="rag-ind-2">🔍 Scanning docs...</div>
+                </div>
+                <div class="rag-step-card" id="rag-step-3">
+                  <div class="step-num">3</div>
+                  <h4>Augment Prompt</h4>
+                  <p class="step-desc">Glue the retrieved facts onto original question.</p>
+                  <div class="step-indicator" id="rag-ind-3">📋 Context merged!</div>
+                </div>
+                <div class="rag-step-card" id="rag-step-4">
+                  <div class="step-num">4</div>
+                  <h4>Generate Answer</h4>
+                  <p class="step-desc">Gemini outputs response using exact book facts.</p>
+                  <div class="step-indicator" id="rag-ind-4">💬 Waiting...</div>
+                </div>
+              </div>
+              
+              <!-- Database Vault Panel -->
+              <div class="rag-vault-panel">
+                <h5>📁 Vector Library Database (Known Books)</h5>
+                <ul class="rag-db-list">
+                  <li><strong>Doc 1:</strong> The robot battery is located on the charger dock in Sector 4.</li>
+                  <li><strong>Doc 2:</strong> Space rocks contain crystalline elements that glow in the dark.</li>
+                  <li><strong>Doc 3:</strong> Electric circuits require a closed loop pathway to flow electricity.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sandbox 4: Reinforcement Learning (Q-learning Robot) -->
+          <div class="sandbox-view" id="view-reinforcement_learning">
+            <div class="sandbox-controls">
+              <div>
+                <button class="game-btn primary" id="rl-step-btn" type="button">🚶 Take 1 Step</button>
+                <button class="game-btn" id="rl-train-btn" type="button">🔄 Train 50 Epochs (Fast!)</button>
+                <button class="game-btn secondary" id="rl-reset-btn" type="button">🧹 Clear Brain</button>
+              </div>
+              <span class="game-hint">Values in cells show the robot's brain memory (Q-values). Higher numbers mean it knows that path is safe!</span>
+            </div>
+            
+            <div class="rl-layout">
+              <!-- The Grid World -->
+              <div class="rl-grid-container">
+                <div class="rl-grid" id="rl-grid-board">
+                  <!-- Generated via script -->
+                </div>
+              </div>
+              <!-- Info overlay -->
+              <div class="rl-sidebar">
+                <div class="rl-stat-box">
+                  <span class="stat-lbl">Epochs Trained:</span>
+                  <span class="stat-val" id="rl-epoch-count">0</span>
+                </div>
+                <div class="rl-stat-box">
+                  <span class="stat-lbl">Accumulated Reward:</span>
+                  <span class="stat-val" id="rl-reward-count">0</span>
+                </div>
+                <div class="rl-legend">
+                  <h5>Legend:</h5>
+                  <ul>
+                    <li>🤖 = Robot Agent</li>
+                    <li>🔋 = Battery (Goal: +10 Points)</li>
+                    <li>🔥 = Fire Pit (Penalty: -10 Points)</li>
+                    <li>🧱 = Metal Wall (Blocker)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sandbox 5: Fine-Tuning parameters -->
+          <div class="sandbox-view" id="view-fine_tuning">
+            <div class="sandbox-controls">
+              <div class="slider-panel">
+                <div class="slider-group">
+                  <label for="ft-lr">Learning Rate (Speed): <span id="ft-lr-val">0.05</span></label>
+                  <input type="range" id="ft-lr" min="0.01" max="0.3" step="0.01" value="0.05">
+                </div>
+                <div class="slider-group">
+                  <label for="ft-epochs">Training Epochs: <span id="ft-epochs-val">10</span></label>
+                  <input type="range" id="ft-epochs" min="5" max="30" step="1" value="10">
+                </div>
+                <div class="slider-group">
+                  <label for="ft-lora">LoRA Adaption Rank: <span id="ft-lora-val">8</span></label>
+                  <input type="range" id="ft-lora" min="2" max="32" step="2" value="8">
+                </div>
+                <button class="game-btn primary" id="ft-train-btn" type="button">⚙️ Start Training Run</button>
+              </div>
+              <span class="game-hint">Adjust knobs and watch the network weights adapt! Lower Loss and higher accuracy mean a successful fine-tuning!</span>
+            </div>
+            
+            <div class="fine-tuning-viz">
+              <div class="loss-chart-box">
+                <h5>📉 Training Loss Curve (Simulated)</h5>
+                <div class="svg-container">
+                  <svg id="loss-svg" viewBox="0 0 450 180"></svg>
+                </div>
+              </div>
+              <div class="adapter-weight-box">
+                <h5>📐 LoRA Adapter Matrix Updates</h5>
+                <div class="matrix-grid" id="lora-matrix">
+                  <!-- Render matrices dynamic -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Explainer Card (Right / Bottom Side) -->
+        <div class="sandbox-explainer card-glass">
+          <h3 class="explainer-term" id="explainer-term">Neural Network</h3>
+          <div class="explainer-section">
+            <h4>💡 What is it?</h4>
+            <p id="explainer-definition">A computer brain inspired by the human mind, made of nodes (neurons) that connect and pass information to solve puzzles.</p>
+          </div>
+          <div class="explainer-section">
+            <h4>🍎 School Analogy</h4>
+            <p id="explainer-example">Like a chain of friends guessing a drawing: the first friend looks at outlines, the second identifies shapes, and the third guesses the object.</p>
+          </div>
+          <div class="explainer-section">
+            <h4>🛠️ Where do you see it?</h4>
+            <p id="explainer-use-case">Self-driving cars recognizing stop signs, or smart cameras detecting faces in photos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: MODELS & METRICS PANEL -->
+    <section class="tab-panel" id="panel-models" role="tabpanel" aria-labelledby="tab-models" hidden>
+      <div class="panel-header">
+        <h2>AI Model Metrics 📊</h2>
+        <p>Compare how the world's most famous neural brains score across parameter size, accuracy benchmarks, API cost, and context size.</p>
+      </div>
+
+      <div class="metrics-grid">
+        <!-- Metric select list and table -->
+        <div class="metrics-sidebar card-glass">
+          <h3>Compare Models By:</h3>
+          <div class="metric-options">
+            <button class="metric-opt active" data-metric="mmlu_score" type="button">
+              <span>🎯 MMLU Accuracy Score</span>
+              <p>How smart the model is in academic and logic puzzles (Higher is better).</p>
+            </button>
+            <button class="metric-opt" data-metric="context_window" type="button">
+              <span>📖 Context Window (Tokens)</span>
+              <p>How many pages of books the model can read and remember at once.</p>
+            </button>
+            <button class="metric-opt" data-metric="cost_per_million" type="button">
+              <span>💰 API Price (Per 1M Tokens)</span>
+              <p>Estimated dollar price to generate one million tokens of answers.</p>
+            </button>
+          </div>
+        </div>
+
+        <!-- Custom SVG Chart Display -->
+        <div class="chart-display card-glass">
+          <h3 id="chart-title">🎯 Model Comparison: MMLU Accuracy (%)</h3>
+          
+          <div class="chart-svg-container">
+            <!-- We draw a beautiful responsive SVG bar chart -->
+            <svg id="models-bar-chart" viewBox="0 0 600 350"></svg>
+          </div>
+
+          <!-- Model Details Table -->
+          <div class="models-table-wrapper">
+            <table class="models-table">
+              <thead>
+                <tr>
+                  <th>Model Name</th>
+                  <th>Developer</th>
+                  <th>Parameters</th>
+                  <th>Context Limit</th>
+                  <th>MMLU Score</th>
+                  <th>Price ($/1M)</th>
+                </tr>
+              </thead>
+              <tbody id="models-table-body">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: RESOURCES PANEL -->
+    <section class="tab-panel" id="panel-resources" role="tabpanel" aria-labelledby="tab-resources" hidden>
+      <div class="panel-header">
+        <h2>Resources & Learning 🎓</h2>
+        <p>Curated list of the trending courses and top blogs to learn machine learning, deep learning, and transformer architectures.</p>
+      </div>
+
+      <div class="resources-layout">
+        <!-- Courses Grid -->
+        <div class="resources-card card-glass">
+          <div class="column-header">
+            <h3>🎁 Top Free AI Courses</h3>
+            <span class="category-badge growth">Courses</span>
+          </div>
+          <div class="courses-list" id="courses-container">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Blogs Grid -->
+        <div class="resources-card card-glass">
+          <div class="column-header">
+            <h3>📝 Top 5 Recommended AI Blogs</h3>
+            <span class="category-badge tech">Blogs</span>
+          </div>
+          <div class="blogs-list" id="blogs-container">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>© 2026 AI Pulse • Designed for Young Innovators. Daily updates powered by Google Gemini API.</p>
+  </footer>
+
+  <!-- Reusable Interactive Popover Tooltip for Glossary Terms -->
+  <div id="glossary-popover" popover class="glossary-tooltip card-glass">
+    <h4 id="glossary-title">Glossary Term</h4>
+    <p id="glossary-def">Definition goes here...</p>
+    <button id="glossary-action-btn" class="game-btn primary" type="button">Explore Sandbox 🎮</button>
+  </div>
+
+  <!-- Link script file -->
+  <script src="app.js"></script>
+</body>
+</html>
