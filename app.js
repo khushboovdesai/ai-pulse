@@ -241,23 +241,22 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.highlight-item').forEach(item => {
     item.addEventListener('click', () => {
       const action = item.getAttribute('data-action');
-      if (action === 'scroll-brief') {
-        const briefGrid = document.querySelector('.brief-grid');
-        if (briefGrid) {
-          briefGrid.scrollIntoView({ behavior: 'smooth' });
-        }
-      } else if (action === 'tab-sandbox') {
-        const tab = document.getElementById('tab-sandbox');
-        if (tab) tab.click();
-      } else if (action === 'tab-models') {
-        const tab = document.getElementById('tab-models');
-        if (tab) tab.click();
-      } else if (action === 'tab-resources') {
-        const tab = document.getElementById('tab-resources');
-        if (tab) tab.click();
+      let targetEl = null;
+      if (action === 'scroll-growth') {
+        targetEl = document.getElementById('col-growth');
+      } else if (action === 'scroll-tech') {
+        targetEl = document.getElementById('col-tech');
+      } else if (action === 'scroll-tools') {
+        targetEl = document.getElementById('col-tools');
+      } else if (action === 'scroll-courses') {
+        targetEl = document.getElementById('col-courses');
+      }
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
   });
+
 
   // ==========================================================================
   // DATA RENDERING (DAILY BRIEF, MODELS, RESOURCES)

@@ -88,39 +88,39 @@
 
       <!-- Quick Summary Overview Card -->
       <div class="overview-highlights card-glass">
-        <div class="highlight-item" data-action="scroll-brief">
-          <span class="highlight-icon">📰</span>
+        <div class="highlight-item" data-action="scroll-growth">
+          <span class="highlight-icon">🌱</span>
           <div class="highlight-text">
-            <strong>Daily Brief & Tools</strong>
-            <span>🌱 Growth news, 🚀 tech breakthroughs, and 🔥 trending AI software.</span>
+            <strong>Growth Pulse</strong>
+            <span>AI math tutors, rising startup valuations, and pediatric disease spotters.</span>
           </div>
         </div>
-        <div class="highlight-item" data-action="tab-sandbox">
-          <span class="highlight-icon">🎮</span>
+        <div class="highlight-item" data-action="scroll-tech">
+          <span class="highlight-icon">🚀</span>
           <div class="highlight-text">
-            <strong>Jargon Playgrounds</strong>
-            <span>🤖 Play with Neural Net, Attention, RAG, and Q-Learning robot simulations!</span>
+            <strong>Tech Pulse</strong>
+            <span>State Space Models (SSMs), super-fast local quantization, and analog brain chips.</span>
           </div>
         </div>
-        <div class="highlight-item" data-action="tab-models">
-          <span class="highlight-icon">📊</span>
+        <div class="highlight-item" data-action="scroll-tools">
+          <span class="highlight-icon">🔥</span>
           <div class="highlight-text">
-            <strong>Model Benchmarks</strong>
-            <span>📈 Compare LLM sizes, context windows, parameters, and costs.</span>
+            <strong>Trending Tools</strong>
+            <span>Cursor AI editor, NotebookLM podcasts, and v0 web interface builders.</span>
           </div>
         </div>
-        <div class="highlight-item" data-action="tab-resources">
-          <span class="highlight-icon">🎓</span>
+        <div class="highlight-item" data-action="scroll-courses">
+          <span class="highlight-icon">🎁</span>
           <div class="highlight-text">
-            <strong>Learning Hub</strong>
-            <span>📚 Find beginner courses and read curated AI developer blogs.</span>
+            <strong>Free Learning</strong>
+            <span>GenAcademy Agentic AI, Maven Lightning Sessions, and Andrew Ng courses.</span>
           </div>
         </div>
       </div>
 
       <div class="brief-grid">
         <!-- Growth News Section -->
-        <div class="news-column card-glass">
+        <div class="news-column card-glass" id="col-growth">
           <div class="column-header">
             <h3>🌱 Top 3 AI Growth News</h3>
             <span class="category-badge growth">Progress</span>
@@ -132,7 +132,7 @@
         </div>
 
         <!-- Tech News Section -->
-        <div class="news-column card-glass">
+        <div class="news-column card-glass" id="col-tech">
           <div class="column-header">
             <h3>🚀 Top 3 AI Tech News</h3>
             <span class="category-badge tech">Engineering</span>
@@ -144,7 +144,7 @@
         </div>
 
         <!-- Tools Section -->
-        <div class="news-column card-glass">
+        <div class="news-column card-glass" id="col-tools">
           <div class="column-header">
             <h3>🔥 Trending AI Tools</h3>
             <span class="category-badge warning">Trending</span>
@@ -156,7 +156,7 @@
         </div>
 
         <!-- Free Courses Column (4th Section) -->
-        <div class="news-column card-glass">
+        <div class="news-column card-glass" id="col-courses">
           <div class="column-header">
             <h3>🎁 Top 3 Free Courses</h3>
             <span class="category-badge growth">Courses</span>
