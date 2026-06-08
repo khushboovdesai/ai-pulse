@@ -103,3 +103,17 @@ By default, GitHub Actions runs with a read-only token and is blocked from pushi
 5. Click **Save**.
 
 Once these two items are set, the workflow will push updates on autopilot, and Vercel will instantly redeploy them!
+
+---
+
+## 💡 Frequently Asked Questions (FAQ)
+
+### 1. If I push my commits right now, will Vercel still deploy the website?
+**Yes, absolutely.** Vercel only compiles and hosts the static code (HTML/CSS/JS) in your repository. It does not run the Python curation script during its build stage, meaning it does **not** need the Gemini API key or write permissions to serve your updated pages. Any layout or design changes you push will go live immediately.
+
+### 2. When are the Gemini API Key and Write Permissions actually needed?
+They are **only** required for the automated daily curation script running in GitHub Actions:
+* **Gemini API Key**: Needed by `scripts/fetch_brief.py` on the Actions runner to query Gemini for fresh AI news.
+* **Write Permissions**: Needed by the Actions runner to push the updated `data/brief.json` back to your GitHub repository.
+
+If these are not configured, your code changes will still deploy to Vercel, but the daily brief content itself will remain static and will not update on autopilot.
