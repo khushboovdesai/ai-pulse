@@ -86,38 +86,6 @@
         <p>Curated and simplified updates to keep you informed about what's happening in AI today.</p>
       </div>
 
-      <!-- Quick Summary Overview Card -->
-      <div class="overview-highlights card-glass">
-        <div class="highlight-item" data-action="scroll-growth">
-          <span class="highlight-icon">🌱</span>
-          <div class="highlight-text">
-            <strong>Growth Pulse</strong>
-            <span>AI math tutors, rising startup valuations, and pediatric disease spotters.</span>
-          </div>
-        </div>
-        <div class="highlight-item" data-action="scroll-tech">
-          <span class="highlight-icon">🚀</span>
-          <div class="highlight-text">
-            <strong>Tech Pulse</strong>
-            <span>State Space Models (SSMs), super-fast local quantization, and analog brain chips.</span>
-          </div>
-        </div>
-        <div class="highlight-item" data-action="scroll-tools">
-          <span class="highlight-icon">🔥</span>
-          <div class="highlight-text">
-            <strong>Trending Tools</strong>
-            <span>Cursor AI editor, NotebookLM podcasts, and v0 web interface builders.</span>
-          </div>
-        </div>
-        <div class="highlight-item" data-action="scroll-courses">
-          <span class="highlight-icon">🎁</span>
-          <div class="highlight-text">
-            <strong>Free Learning</strong>
-            <span>GenAcademy Agentic AI, Maven Lightning Sessions, and Andrew Ng courses.</span>
-          </div>
-        </div>
-      </div>
-
       <div class="brief-grid">
         <!-- Growth News Section -->
         <div class="news-column card-glass" id="col-growth">
@@ -159,11 +127,23 @@
         <div class="news-column card-glass" id="col-courses">
           <div class="column-header">
             <h3>🎁 Top 3 Free Courses</h3>
-            <span class="category-badge growth">Courses</span>
+            <span class="category-badge growth">Free</span>
           </div>
           <div class="news-list" id="brief-courses-container">
             <!-- Dynamically populated -->
             <div class="loading-state">Loading learning resources...</div>
+          </div>
+        </div>
+
+        <!-- Paid Courses Column (5th Section) -->
+        <div class="news-column card-glass" id="col-paid-courses">
+          <div class="column-header">
+            <h3>💰 Top 3 Paid Courses</h3>
+            <span class="category-badge warning">Paid</span>
+          </div>
+          <div class="news-list" id="brief-paid-courses-container">
+            <!-- Dynamically populated -->
+            <div class="loading-state">Loading premium courses...</div>
           </div>
         </div>
       </div>

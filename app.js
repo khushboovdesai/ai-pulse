@@ -236,29 +236,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ==========================================================================
-  // OVERVIEW HIGHLIGHTS INTERACTIONS
-  // ==========================================================================
-  document.querySelectorAll('.highlight-item').forEach(item => {
-    item.addEventListener('click', () => {
-      const action = item.getAttribute('data-action');
-      let targetEl = null;
-      if (action === 'scroll-growth') {
-        targetEl = document.getElementById('col-growth');
-      } else if (action === 'scroll-tech') {
-        targetEl = document.getElementById('col-tech');
-      } else if (action === 'scroll-tools') {
-        targetEl = document.getElementById('col-tools');
-      } else if (action === 'scroll-courses') {
-        targetEl = document.getElementById('col-courses');
-      }
-      if (targetEl) {
-        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
-
-
-  // ==========================================================================
   // DATA RENDERING (DAILY BRIEF, MODELS, RESOURCES)
   // ==========================================================================
 
@@ -277,6 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Render components
       renderDailyBrief();
       renderBriefCourses();
+      renderBriefPaidCourses();
       renderTools();
       renderResources();
       renderModelsTable();
@@ -296,11 +274,12 @@ document.addEventListener('DOMContentLoaded', () => {
     growthContainer.innerHTML = '';
     techContainer.innerHTML = '';
 
-    appData.growth_news.forEach(news => {
+    // Slice to strictly top 3 results
+    appData.growth_news.slice(0, 3).forEach(news => {
       growthContainer.appendChild(createNewsCard(news));
     });
 
-    appData.tech_news.forEach(news => {
+    appData.tech_news.slice(0, 3).forEach(news => {
       techContainer.appendChild(createNewsCard(news));
     });
   }
@@ -312,10 +291,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const courses = [
       {
-        title: "GenAcademy Mastering Agentic AI Cohort",
-        provider: "GenAcademy",
-        description: "Learn to build autonomous multi-agent systems using the Google Antigravity SDK and state-of-the-art frameworks in an interactive team cohort.",
-        url: "https://genacademy.io"
+        title: "Introduction to Generative AI",
+        provider: "Google Cloud",
+        description: "Learn the basics of Generative AI, what it is, how it is used, and how it differs from traditional machine learning.",
+        url: "https://www.cloudskillsboost.google/course_templates/536"
       },
       {
         title: "Free Maven Lightning Sessions",
@@ -331,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     ];
 
-    courses.forEach(course => {
+    courses.slice(0, 3).forEach(course => {
       const card = document.createElement('article');
       card.className = 'news-card';
       card.innerHTML = `
@@ -340,6 +319,47 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="news-card-footer">
           <span class="news-source">🎓 Core Learning</span>
           <a class="news-link" href="${course.url}" target="_blank">Start Learning <span aria-hidden="true">→</span></a>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  function renderBriefPaidCourses() {
+    const container = document.getElementById('brief-paid-courses-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const courses = [
+      {
+        title: "GenAcademy Mastering Agentic AI Cohort",
+        provider: "GenAcademy",
+        description: "Learn to build autonomous multi-agent systems using the Google Antigravity SDK and state-of-the-art frameworks in an interactive team cohort.",
+        url: "https://genacademy.io"
+      },
+      {
+        title: "AI Programming with Python Nanodegree",
+        provider: "Udacity",
+        description: "Master foundational AI tools including Python, PyTorch, NumPy, and math essentials with personalized project reviews.",
+        url: "https://www.udacity.com/course/ai-programming-python-nanodegree--nd898"
+      },
+      {
+        title: "AI for Business Specialization",
+        provider: "Wharton School",
+        description: "Learn how AI is changing business operations, marketing, strategy, and analytics from Wharton School professors.",
+        url: "https://www.coursera.org/specializations/ai-for-business-wharton"
+      }
+    ];
+
+    courses.slice(0, 3).forEach(course => {
+      const card = document.createElement('article');
+      card.className = 'news-card';
+      card.innerHTML = `
+        <h4 class="news-card-title">${course.title} <span class="paid-badge" style="font-size: 0.65rem; font-weight: 600; padding: 1px 4px; background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.25); border-radius: 4px; margin-left: 4px; display: inline-block; vertical-align: middle;">PAID 💰</span></h4>
+        <p class="news-card-desc"><strong>${course.provider}</strong> — ${course.description}</p>
+        <div class="news-card-footer">
+          <span class="news-source">🎓 Premium Learning</span>
+          <a class="news-link" href="${course.url}" target="_blank">Enroll Course <span aria-hidden="true">→</span></a>
         </div>
       `;
       container.appendChild(card);
@@ -366,7 +386,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('trending-tools-container');
     container.innerHTML = '';
 
-    appData.tools.forEach(tool => {
+    // Slice to strictly top 3 tools
+    appData.tools.slice(0, 3).forEach(tool => {
       const card = document.createElement('article');
       card.className = 'news-card';
       card.innerHTML = `
@@ -494,6 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     renderDailyBrief();
     renderBriefCourses();
+    renderBriefPaidCourses();
     renderTools();
     renderResources();
     renderModelsTable();
