@@ -117,3 +117,9 @@ They are **only** required for the automated daily curation script running in Gi
 * **Write Permissions**: Needed by the Actions runner to push the updated `data/brief.json` back to your GitHub repository.
 
 If these are not configured, your code changes will still deploy to Vercel, but the daily brief content itself will remain static and will not update on autopilot.
+
+### 3. How does Vercel know when a new commit is pushed? Does it poll GitHub?
+No, Vercel does **not** poll GitHub. Instead, it uses a **Webhook (Push Model)**:
+* **The Webhook Trigger**: When you connect your repository, Vercel registers a webhook with GitHub. The moment you run `git push`, GitHub immediately triggers an HTTP POST request to Vercel's API.
+* **Ephemeral Build Environment**: Vercel spins up a temporary build container (similar to a containerized pod) to pull the fresh commit, compile files (if a compiler is used), and package the assets.
+* **Global Edge Network (CDN)**: Once compiled, the static assets (`index.html`, `style.css`, etc.) are uploaded and cached on edge servers globally. There is no persistent pod or server running 24/7, which guarantees lightning-fast loading speeds and zero server costs.
