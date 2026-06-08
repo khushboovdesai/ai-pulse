@@ -15,15 +15,15 @@ For **AI Pulse**, we engineered a **Serverless & Static Architecture**.
 
 ---
 
-## 🛠️ The Tech Stack: GitHub's Free Superpowers
+## 🛠️ The Tech Stack: Serverless Automation & Vercel Hosting
 
-We use three core GitHub technologies to achieve this:
+We use three core technologies to achieve this:
 
 | Technology | What it is | How we use it |
 | :--- | :--- | :--- |
 | **GitHub** | A cloud vault for code and files. | Stores our frontend, Python scripts, test suites, and our daily news JSON database. |
-| **GitHub Actions** | A cloud computer that wakes up on command. | Runs our python scraper, calls Gemini, compiles the updates, and saves it. |
-| **GitHub Pages** | A free global web distributor (CDN). | Serves our website files to kids and learners worldwide with zero lag. |
+| **GitHub Actions** | A cloud computer that wakes up on command. | Runs our python scraper, calls Gemini, curates the updates, and saves it to the repo. |
+| **Vercel** | A premium static web host and cloud distributor. | Detects git pushes (from you or the action robot) and instantly redeploys the live site. |
 
 ---
 
@@ -39,7 +39,7 @@ graph TD
     D --> E[Gemini generates child-friendly summaries]
     E --> F[Robot saves updates to data/brief.json]
     F --> G[Robot pushes changes back to GitHub]
-    G --> H[GitHub Pages instantly updates site!]
+    G --> H[Vercel detects push & redeploys site!]
 ```
 
 ### The Cron Trigger
@@ -77,17 +77,29 @@ This will overwrite your local [data/brief.json](file:///Users/harshvyas/Documen
 
 ---
 
-## 🔑 Security Setup: Keeping Secrets Secret
+## 🔑 Required GitHub Configuration & Permissions
 
-To fetch summaries, our Python script needs to talk to the Google Gemini API. Since we don't want anyone else stealing our API key, we use **GitHub Secrets**:
+To make sure the daily cron successfully updates the site on Vercel, you need to configure two things in your GitHub repository settings:
+
+### 1. Add Gemini API Key Secret
+Our Python curation script needs to talk to the Google Gemini API. Since we don't want anyone else stealing our API key, we use **GitHub Secrets**:
 
 > [!WARNING]
 > Never write your API Key directly inside scripts or commit it to GitHub. If you do, Google will deactivate it automatically for security.
 
-### How to link your API key:
 1. Go to your repository settings on GitHub.
 2. Navigate to **Secrets and variables** ➔ **Actions**.
 3. Click **New repository secret**.
 4. Set the name to `GEMINI_API_KEY`.
 5. Paste your Gemini API key into the value field and click **Add secret**.
-6. The GitHub Actions robot can now access this secret safely behind the scenes!
+
+### 2. Enable Workflow Write Permissions
+By default, GitHub Actions runs with a read-only token and is blocked from pushing commits back to your repository. You must authorize it to commit the updated `data/brief.json`:
+
+1. Go to your repository settings on GitHub.
+2. Navigate to **Actions** ➔ **General** (under the "Security" section).
+3. Scroll down to **Workflow permissions**.
+4. Select **Read and write permissions** (this allows the action to commit and push changes back).
+5. Click **Save**.
+
+Once these two items are set, the workflow will push updates on autopilot, and Vercel will instantly redeploy them!
