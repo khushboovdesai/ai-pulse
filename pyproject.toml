@@ -3,7 +3,7 @@ name = "ai-pulse"
 version = "0.1.0"
 description = "A daily brief and interactive playground dashboard for AI news, models, and concepts designed for young learners."
 authors = [
-    { name = "Harsh Vyas" }
+    { name = "Khushboo Desai" }
 ]
 requires-python = ">=3.9"
 dependencies = [
