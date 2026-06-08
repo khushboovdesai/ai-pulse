@@ -4,6 +4,7 @@
 
 It provides daily simplified news curations, trending tools, resource indexes, and custom-designed **interactive playgrounds** to visually explain complex AI concepts.
 
+It is live hosted on Vercel, updated every day via Github actions: https://ai-pulse-alpha.vercel.app/
 
 ---
 
