@@ -163,8 +163,8 @@ def curate_with_gemini(feed_items: List[Dict[str, str]]) -> Optional[str]:
     prompt = GEMINI_PROMPT_TEMPLATE.format(raw_feed_content=feed_text)
 
     try:
-        # Use gemini-1.5-flash for rapid, lightweight summaries
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        # Use gemini-3.5-flash for rapid, lightweight summaries
+        model = genai.GenerativeModel("gemini-3.5-flash")
         
         # Configure model to return JSON directly
         response = model.generate_content(
@@ -200,7 +200,7 @@ def main() -> None:
         parsed_data = json.loads(json_payload_str)
         # Ensure updated timestamp is set correctly
         import datetime
-        parsed_data["updated_at"] = datetime.datetime.utcnow().isoformat() + "Z"
+        parsed_data["updated_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z")
         
         # Write back to file database
         os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)

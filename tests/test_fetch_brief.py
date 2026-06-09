@@ -56,7 +56,7 @@ def test_curate_with_gemini(mock_model_class, mock_gemini_json):
     assert parsed["growth_news"][0]["title"] == "AI Helps Safe Dolphins in the Ocean"
     
     # Assert model instantiation configurations
-    mock_model_class.assert_called_with("gemini-1.5-flash")
+    mock_model_class.assert_called_with("gemini-3.5-flash")
     mock_model.generate_content.assert_called_once()
 
 
