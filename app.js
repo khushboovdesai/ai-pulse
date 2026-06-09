@@ -247,9 +247,9 @@ document.addEventListener('DOMContentLoaded', () => {
       
       // Update UI Header
       const dateStr = new Date(appData.updated_at).toLocaleDateString('en-US', {
-        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
       });
-      updateTimeBadge.textContent = `Daily Brief: Updated ${dateStr} EST`;
+      updateTimeBadge.textContent = `Daily Brief: Updated ${dateStr}`;
       
       // Render components
       renderDailyBrief();
