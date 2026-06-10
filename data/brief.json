@@ -1,130 +1,130 @@
 {
-  "updated_at": "2026-06-09T23:14:04.102738Z",
+  "updated_at": "2026-06-10T14:17:06.966386Z",
   "growth_news": [
     {
       "id": "growth-1",
-      "title": "Maryland Opens a Brand New AI Lab!",
-      "description": "Maryland is launching a new innovation lab designed to use artificial intelligence to solve community problems and help make state services easier to use. It is a big, exciting step showing how technology can make daily life better for students and families.",
-      "source": "govtech.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNEEtWVRuTHhDOXU0di11YjdSZGFacm9Mak85WXlJQmNHc2pIN0VpWnB4WDlnRGZOazBYLUR3U3M1VWxMM0pCaGNUbHB1NVVpWmhLWUJyUk1QdWVxWlNES3I5cjhRdlNwdzBLZHVjYXI0dk1sMWdjLUlraGtLb19saEwzLXNkeExrU3RENDNGQmlQeEhLTVhvcS1fY2dRTkFDMXFGa3dnaE9JWUpR?oc=5"
+      "title": "AI helps discover life-saving medicines faster!",
+      "description": "Imagine having to test millions of keys to find one that unlocks a cure. AI acts like a super-scanner that finds the perfect keys in seconds, helping scientists make new medicines way faster than before!",
+      "source": "Drug Target Review",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWRMMmkwSEZ1Y1l3dzhabEoyWUtOVjZsaW8xWUdQenNweUc2dkN1ZVN5cUFYdndJVklUWlo2WWdHSkdSYTBIZ2Zlbmo1YTdVU2tmdE1vNFowOElyVEl1RW5POXlhdy1OS2RMQjN4OS1VZlVDa25YTmp5QjI0LVdJOEpGd1A5T3FOSWVNZnVBSjNKQjFNcWZPaVY2TXQyckFTNkVWS0lGS21SbW5XMFZCY0oxMA?oc=5"
     },
     {
       "id": "growth-2",
-      "title": "New University Lab Puts Ethics First in AI",
-      "description": "Boston College has opened a brand-new institute dedicated to making sure artificial intelligence is designed to be safe, fair, and kind to humanity. This center will teach future computer scientists how to build smart technology that respects everyone.",
-      "source": "Boston College",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUkFGbm9oZHBjUE55NzVFMnh3blpjVTVuUnpXazBycmQ4dnotVVdPZ1BuMWlIUERDOUhxaTFPRThJcDFCRFMwZFFLNzRMb3VkWVE4dDRNdDQxZG5FZnNDZWxHbG9ZQjM5ZFNteXVIc0gzRlJWOVhUdDJVSnVjNzRwQ2k4YmpjaTlVNVEwRzBLaFJvZGhTblF4MXo0WHFpRTFtdGtKT0syRmhwOUQ2U0VpSjExSlpGU0lDU2xWQWZJWThpWjhvQ25jNnc2X3FHc0ZhQ1JhbEhETExGRVdCUmZqdExrS2ZzUQ?oc=5"
+      "title": "Google Gemini brings AI magic to the World Cup!",
+      "description": "Soccer fans are getting a high-tech treat as Google's Gemini AI joins the World Cup to help analyze plays and share fun stats. It is like having a super-smart robot assistant sitting next to you explaining every kick!",
+      "source": "WIRED",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXM5QzJBWEJPZHV0RXQtcEVQd3IwazJoOWhlY1lpNWxYVEt5N2FvWTNBUUR4RWpFbkp1b3Z1bzZBdU5INjA4Z2pSRk8xRnB4YVEzclZFV1g0cE5kLXRyNXJJUGZ5S3BJWEhDOTVqcmpwd0h2YndzM0t6VlUzOXRVd0RDNTVuOFVvVmpSY2ZzSTNqcEd4U3h5VTFJMFpPVl9OUzN4Rg?oc=5"
     },
     {
       "id": "growth-3",
-      "title": "AI Helps Doctors Spend More Quality Time with Patients",
-      "description": "A new study reveals that AI systems are helping healthcare workers finish their computer paperwork much faster. Because the AI handles the typing, doctors and nurses can focus on what they do best: listening to and caring for their patients.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmpVWndBTzFOc0k1cHk0TUV2NDc3emJ6aHdiQWhKdkJVaEFsY2ZHc3ZlX3RScFliNF9wTlN0eWZSVnR6UGlLdkIxTDV4XzdxcjNuZmRSUGZvQlBJS0hJMng1UmxjTENqQmNCUzdEbnhza240dU4xcGVhOTZSMG96azU1R0VMdDI2bm1jbm41bmZfUE9GMC1QenE5Z2VaREFyQmdYWkNieVVuN1ZZVDJIbnUtRjBib2RtSlgwVGpNRHFEUFVheElF?oc=5"
+      "title": "How AI is helping doctors make better health choices",
+      "description": "A new study shows that people are using AI to understand their health better, helping them make smarter decisions when talking to doctors. It's like having a friendly, always-available digital nurse to help you understand your symptoms!",
+      "source": "Fierce Pharma",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmNnR0FEN05fQjVaZ0xTTUs0OTFESUd6RVViY1dCV2RENW1CcjRQemMyR0RPX1BESkdNWDJza3dsOWRIOW5zWmE2UDBUbkRUN21xSDJZWGFJaExZVk5kQk8zN3JYcHZSeXRkdWN4M19CRUhSaWFXZHdpQlZleWN2QkR1UXRvOXJyRkdtMmpzS1pkN0hqNFN1dDA4SnQ5dw?oc=5"
     }
   ],
   "tech_news": [
     {
       "id": "tech-1",
-      "title": "Meet Siri AI: Apple's Assistant Gets a Superpower Boost!",
-      "description": "Apple is officially upgrading its virtual assistant to 'Siri AI' by integrating advanced machine learning directly into its operating systems. It is like giving your device a virtual brain update so it can understand you better and help you sketch, write, and organize your ideas instantly.",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNkVSUHVFdEY4ZmgxX20wcDBWcGNLOV9hZUZvdU5abWxtWWQxeGw2bFV0a3NSbDFIT2FlMzhyNjZybGMwNE9kSVRJbTJvNmEwNWhldUk3a3ZSbGxrclpRZkN4SWtiemFJX1FENm0ydkpFVHhtMkFRWjNrV2gwVGFGRmdRVGp0TVhsOUR5WmU4MGttQlJpN0pIS0t3NnVzX1NrRkQxSFBMZHF4dF9pYVE?oc=5"
+      "title": "Anthropic releases powerful new AI model to the public",
+      "description": "Anthropic has made its highly-anticipated new AI model available for everyone to try. This system works like a super-powered digital brain that can tackle complex coding, logic, and writing tasks with ease.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1hkdnpwejJ6QzlJemxSRkZtTWRTeFNFLUpmaGFRekZpVF9VOXR4a3hHQlVLU29yS1dibUhDMHdfeGpiTk9PZXR0aUlGTHE1Zld2aXl5S2Y2V1FXdUFwUHNvd3Y2WjVmRXcyeWFodkY4MFh1TE1B0gF8QVVfeXFMTnE5TEtyeWVsVjdmVXZsNGRLMkpxRE5iQzlGdzQ4V1N2d0gxQk5xMGRJdjZ5ckRSRFhZeFFDYk1odkZLdWE5Uk15R3VlWnV3MzRvRms2Tm14T1lxVE1Wc2t0a1FUUm8yYWVwXzA3TDIwWVRUTGctVENYTHpZUg?oc=5"
     },
     {
       "id": "tech-2",
-      "title": "Tech Super-Team: Apple, Google, and Nvidia Join Forces",
-      "description": "Three of the world's leading technology creators are partnering up to develop the ultimate advanced AI model. Think of it like your favorite comic book heroes combining their unique gadgets and strengths to build a giant, helpful robot friend that can solve tricky challenges.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4TjFkZDFJdkg4ZVUwNmhSSENfbldRMDdRS1dYNTVMTXZMVUt5bldNTzFWdmkxQlo4U3JRUWJOZXU5S0tYdDhDSUFsRnlIQzZST293NUFST1BfbWMzbGhnYTBHdHVoenZzMXhjWnRwdk50Q0XSAXhBVV95cUxNRUI5M19abFhpcDlMVlJRV0NJUTFybXExZ2pkTWVBT0pLMGsxeklfSHJiMDlSOGVyTjNSQzJKaUxEX2R5NjdHdUJDUGYwWWluRkEtd1BjbFQ3TVFaLUpQcHZXeUs0V1h1MjdtbldGR2Z3Q0x1WDRkczE?oc=5"
+      "title": "AI pioneer Rich Sutton talks about AI creativity",
+      "description": "Famous AI scientist Rich Sutton discussed how computers are learning to invent new ideas instead of just copying humans. This means future AIs might help us solve math puzzles we've never been able to crack!",
+      "source": "YouTube / Richard Sutton",
+      "url": "https://twitter.com/RichardSSutton/status/2061216087744946656"
     },
     {
       "id": "tech-3",
-      "title": "How a Smart Bird and Tech Solved a Wild Mystery!",
-      "description": "Scientists successfully mapped an amazing bird migration journey using ultra-light tracking sensors and smart predictive software. By feeding this bird-flight data into AI programs, researchers can now anticipate ecological shifts and better protect endangered species and forests.",
-      "source": "The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZDEtekhPVGg4Z0lJZm1hSmJGbFNOOW9pM0FfV1owb01QM3dlMm1pbzJ6UEQ0Yk9WZnhyMWVub1FCckpLMXJuNG1XaXByX1NuajRFa2N6cExIMmVOWUhGOXkwX3EyQVNLVTFBSW9tM1N4NjJEU0dYbVhqSk1ycC1hWmZTYWs5RkF6NTZKVzBFY2FOdW9XOUlkUE9KQmstTEVDTml5YWN3?oc=5"
+      "title": "New York ads now must label AI art",
+      "description": "A new law in New York says that advertisements must clearly state when they use AI-generated pictures or videos. This is like adding a 'made by robots' sticker so viewers always know what is real and what is digital magic.",
+      "source": "13wham.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZzZYSlhUT05VZTA1ZU9WRzhPTWNHdWJiZHpDUGhDbmgzbG1sVmgzV3VQZ3ZKNlM5STBTSkRHTzVmSmctcGJHbktzRUp6Y0J2NmVPcFlDSi01WTFNdXhfVHBUZVNETlB1d083bzVVYlRKSU1tU0lWQjJpWk9RTWItZ2ZZbzZ1Q1JSdDFWMElqbDZNVElEb3BrSzYzUWR0RXM1VGtvN2dlRF9oWmFhSHJCQ2tKS3pHNXg1TXR4aFdyWQ?oc=5"
     }
   ],
   "jargons": [
     {
       "id": "neural_network",
       "term": "Neural Network",
-      "definition": "A computer system that learns to recognize patterns by imitating the way neurons work in a human brain.",
-      "example": "It is like a giant connect-the-dots game where the lines light up brighter every time you successfully guess the correct picture.",
-      "use_case": "Helping smart cameras recognize whether an image contains a puppy or a kitten."
+      "definition": "A computer system styled after the human brain that learns by processing examples.",
+      "example": "Imagine a tower of Lego blocks where each block passes a secret whisper to the block above it until the top block makes a smart guess.",
+      "use_case": "Teaching computers to recognize pictures of kittens versus puppies."
     },
     {
       "id": "self_attention",
       "term": "Self-Attention",
-      "definition": "A mathematical technique that lets an AI model weigh how much different words in a sentence relate to each other.",
-      "example": "When reading the word 'bat', self-attention looks at nearby words like 'baseball' or 'cave' to decide which meaning is correct.",
-      "use_case": "Powering translators so they understand exactly what slang or metaphors mean in other languages."
+      "definition": "An AI mechanism that helps computers focus on the most important words in a sentence.",
+      "example": "When reading the sentence 'The bank of the river,' attention helps the AI realize 'bank' means the edge of water, not a place with money.",
+      "use_case": "Helping language models translate books into different languages perfectly."
     },
     {
       "id": "rag",
       "term": "RAG (Retrieval-Augmented Generation)",
-      "definition": "A technology that searches a trusted catalog of files to find facts before generating an AI response.",
-      "example": "It is like having an open-book quiz where you are allowed to check the exact page of an encyclopedia before writing your answer.",
-      "use_case": "Allowing a school chatbot to find lunch menus and holiday schedules directly from the principal's official website."
+      "definition": "An 'open-book' approach where an AI looks up trustworthy facts before answering your questions.",
+      "example": "Like looking up a chapter in your favorite encyclopedia to make sure your science report is 100% correct.",
+      "use_case": "Powering smart search engines that answer school questions with direct quotes from articles."
     },
     {
       "id": "reinforcement_learning",
       "term": "Reinforcement Learning",
-      "definition": "A training process where an AI learn to make decisions by trial and error, earning virtual points for good moves and losing points for bad ones.",
-      "example": "Teaching a virtual dog to fetch by giving it a delicious digital dog treat only when it brings the stick back.",
-      "use_case": "Helping autopilot systems figure out how to safely fly delivery drones through windy weather."
+      "definition": "A learning style where an AI tries things out and gets positive points for correct moves.",
+      "example": "Training a puppy to roll over by giving it delicious treats when it does the trick correctly.",
+      "use_case": "Teaching virtual robots how to walk, run, and jump over obstacles in video games."
     },
     {
       "id": "fine_tuning",
       "term": "Fine-Tuning",
-      "definition": "Taking an AI that is already good at general things and giving it extra practice on one specific topic.",
-      "example": "A student who already knows how to draw taking a special weekend class focused entirely on how to paint cartoon dragons.",
-      "use_case": "Teaching a general-purpose writing assistant how to speak exactly like a creative sci-fi author."
+      "definition": "Taking a smart general AI and giving it extra training to turn it into an absolute expert in one field.",
+      "example": "Taking a college student who loves science and sending them to a specialized camp to become a rocket engineer.",
+      "use_case": "Helping general AI chatbots become super-accurate medical assistants for doctors."
     }
   ],
   "tools": [
     {
       "id": "tool-1",
       "name": "Cursor",
-      "tagline": "Code with superpowers",
-      "trending_factor": "This intelligent code editor lets young creators build websites and apps just by describing what they want in plain English.",
-      "url": "https://cursor.com"
+      "tagline": "Code like magic",
+      "trending_factor": "This smart code editor helps kids and creators write software easily by suggesting and writing blocks of code instantly.",
+      "url": "https://www.cursor.com/"
     },
     {
       "id": "tool-2",
       "name": "NotebookLM",
-      "tagline": "Your smart study-buddy",
-      "trending_factor": "It can instantly transform a bundle of boring school notes or PDFs into a lively, banter-filled podcast with two AI hosts.",
-      "url": "https://notebooklm.google"
+      "tagline": "Smart study buddy",
+      "trending_factor": "It can magically turn your homework notes and study guides into a fun, realistic radio podcast featuring AI hosts!",
+      "url": "https://notebooklm.google/"
     },
     {
       "id": "tool-3",
       "name": "v0",
-      "tagline": "Build apps instantly",
-      "trending_factor": "Allows web design curious kids to describe an idea, watch the code construct itself, and play with a working app interface in seconds.",
-      "url": "https://v0.dev"
+      "tagline": "Websites in seconds",
+      "trending_factor": "Just type a description of the website you want to make, and v0 builds the code and design in front of your eyes.",
+      "url": "https://v0.dev/"
     },
     {
       "id": "tool-4",
       "name": "Midjourney",
-      "tagline": "Imagine into reality",
-      "trending_factor": "Generates stunningly realistic, cinematic concept art, helping storytellers and game developers illustrate their imaginary worlds.",
-      "url": "https://midjourney.com"
+      "tagline": "Prompt to masterpiece",
+      "trending_factor": "Creators love it because it transforms simple text descriptions into jaw-dropping, high-quality illustrations and concept art.",
+      "url": "https://www.midjourney.com/"
     },
     {
       "id": "tool-5",
       "name": "ElevenLabs",
-      "tagline": "Voices come alive",
-      "trending_factor": "Makes it incredibly fun to create unique voices and sound effects for video game projects, animation, and class presentations.",
-      "url": "https://elevenlabs.io"
+      "tagline": "Type to speak",
+      "trending_factor": "It generates incredibly realistic voices that can read stories out loud, making game development and audiobooks super easy to create.",
+      "url": "https://elevenlabs.io/"
     }
   ],
   "models": [
     {
       "name": "Claude 3.5 Sonnet",
       "developer": "Anthropic",
-      "parameters": "Not Publicly Disclosed",
+      "parameters": "Unknown (Estimated ~150 Billion)",
       "context_window": 200000,
       "mmlu_score": 88.7,
       "cost_per_million": 3.0
@@ -132,7 +132,7 @@
     {
       "name": "GPT-4o",
       "developer": "OpenAI",
-      "parameters": "Estimated 1.8 Trillion (MoE)",
+      "parameters": "Unknown Mixture of Experts",
       "context_window": 128000,
       "mmlu_score": 88.7,
       "cost_per_million": 2.5
@@ -140,10 +140,10 @@
     {
       "name": "Gemini 1.5 Pro",
       "developer": "Google",
-      "parameters": "Not Publicly Disclosed",
+      "parameters": "Unknown Multi-Modal",
       "context_window": 2000000,
       "mmlu_score": 85.9,
-      "cost_per_million": 1.25
+      "cost_per_million": 3.5
     },
     {
       "name": "Llama 3 70B",
@@ -168,15 +168,15 @@
       "provider": "Coursera",
       "instructor": "Andrew Ng",
       "level": "Beginner",
-      "duration": "6 Hours",
+      "duration": "6 hours",
       "url": "https://www.coursera.org/learn/ai-for-everyone"
     },
     {
       "title": "Elements of AI",
-      "provider": "MinnaLearn & University of Helsinki",
-      "instructor": "Teemu Roos",
+      "provider": "University of Helsinki",
+      "instructor": "Reaktor Team",
       "level": "Beginner",
-      "duration": "30 Hours",
+      "duration": "30 hours",
       "url": "https://www.elementsofai.com/"
     },
     {
@@ -184,61 +184,61 @@
       "provider": "Kaggle",
       "instructor": "Kaggle Team",
       "level": "Beginner",
-      "duration": "3 Hours",
+      "duration": "3 hours",
       "url": "https://www.kaggle.com/learn/intro-to-machine-learning"
     },
     {
-      "title": "CS50's Introduction to Artificial Intelligence with Python",
-      "provider": "edX",
-      "instructor": "David J. Malan",
+      "title": "Machine Learning Specialization",
+      "provider": "Coursera",
+      "instructor": "Andrew Ng",
       "level": "Intermediate",
-      "duration": "40 Hours",
-      "url": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+      "duration": "40 hours",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction"
     },
     {
-      "title": "Spinning Up in Deep RL",
-      "provider": "OpenAI",
-      "instructor": "OpenAI Team",
-      "level": "Advanced",
-      "duration": "20 Hours",
-      "url": "https://spinningup.openai.com/"
+      "title": "Practical Deep Learning for Coders",
+      "provider": "Fast.ai",
+      "instructor": "Jeremy Howard",
+      "level": "Intermediate",
+      "duration": "20 hours",
+      "url": "https://course.fast.ai/"
     }
   ],
   "blogs": [
     {
-      "title": "The Batch",
-      "author": "Andrew Ng",
-      "site": "DeepLearning.AI",
-      "read_time": "5 Minutes",
-      "url": "https://www.deeplearning.ai/the-batch/"
+      "title": "The Gradient",
+      "author": "The Gradient Editors",
+      "site": "The Gradient",
+      "read_time": "15 minutes",
+      "url": "https://thegradient.pub/"
     },
     {
       "title": "OpenAI Blog",
       "author": "OpenAI Team",
       "site": "OpenAI",
-      "read_time": "10 Minutes",
-      "url": "https://openai.com/blog"
-    },
-    {
-      "title": "Google Research Blog",
-      "author": "Google Research Team",
-      "site": "Google",
-      "read_time": "8 Minutes",
-      "url": "https://research.google/blog/"
-    },
-    {
-      "title": "Distill.pub",
-      "author": "Distill Editors",
-      "site": "Distill",
-      "read_time": "15 Minutes",
-      "url": "https://distill.pub"
+      "read_time": "8 minutes",
+      "url": "https://openai.com/blog/"
     },
     {
       "title": "Andrej Karpathy's Blog",
       "author": "Andrej Karpathy",
-      "site": "GitHub Pages",
-      "read_time": "12 Minutes",
+      "site": "Karpathy's Blog",
+      "read_time": "20 minutes",
       "url": "https://karpathy.github.io/"
+    },
+    {
+      "title": "Lilian Weng's Lil'Log",
+      "author": "Lilian Weng",
+      "site": "Lil'Log",
+      "read_time": "25 minutes",
+      "url": "https://lilianweng.github.io/lil-log/"
+    },
+    {
+      "title": "Distill",
+      "author": "Distill Editors",
+      "site": "Distill",
+      "read_time": "18 minutes",
+      "url": "https://distill.pub/"
     }
   ]
 }
