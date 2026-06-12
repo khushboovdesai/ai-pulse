@@ -1,130 +1,130 @@
 {
-  "updated_at": "2026-06-11T14:35:05.334109Z",
+  "updated_at": "2026-06-12T13:58:38.342654Z",
   "growth_news": [
     {
       "id": "growth-1",
-      "title": "AI Helps Doctors Spot Brain Tumors Faster",
-      "description": "Scientists have built a wonderful AI tool called Hetairos that studies medical images to quickly find and label brain tumor subtypes. This life-saving technology helps doctors act fast and create custom treatment plans for patients.",
-      "source": "Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82STliUW80ME5YTUwyX0xOM0JVQUs5bEJhUktPc2lYWDkwcVZjY3g1aEhpNE1YNk5EYVZScjgyZ0pxZlZ6UmxsTGIzTXhhbGVBRk5veG1xazJLaHNrZ1o4?oc=5"
+      "title": "University of Utah launches brand new AI degree!",
+      "description": "The University of Utah has officially approved a new bachelor's degree in artificial intelligence. This is super exciting news because it means young learners will get to take cool classes designed specifically to teach them how to build and understand tomorrow's smart technologies.",
+      "source": "The Salt Lake Tribune",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVzF0VnRIaWl6NHhJM1NrNGc0V1JnU0lJd3JmUERHcFIwZm5LT2NaTXU4ckVGSU5mUTZPWTlsZXlSaWhRTnI4MzdQTHlzVGViM0UtV3R4OHBZcDNHNWh5Qk04U1lpa1dIQ2o2WktpTW5Vd2doSEdnMmtMUGFYczRxa1A1V1o3MXM?oc=5"
     },
     {
       "id": "growth-2",
-      "title": "Google Gemini Brings AI Magic to the World Cup",
-      "description": "The world's biggest soccer event is teaming up with Google Gemini! This friendly AI assistant is helping organizers analyze matches in real-time, create cool graphics, and make the games even more exciting for sports fans worldwide.",
-      "source": "WIRED",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXM5QzJBWEJPZHV0RXQtcEVQd3IwazJoOWhlY1lpNWxYVEt5N2FvWTNBUUR4RWpFbkp1b3Z1bzZBdU5INjA4Z2pSRk8xRnB4YVEzclZFV1g0cE5kLXRyNXJJUGZ5S3BJWEhDOTVqcmpwd0h2YndzM0t6VlUzOXRVd0RDNTVuOFVvVmpSY2ZzSTNqcEd4U3h5VTFJMFpPVl9OUzN4Rg?oc=5"
+      "title": "AI is helping doctors approve medicine faster!",
+      "description": "The use of artificial intelligence has jumped by a massive 148% at the FDA to help review healthcare data. This means smart computer systems are helping scientists work quicker to make sure new medicines and treatments are safe for families all around the world.",
+      "source": "Fierce Healthcare",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcjhELUdUeFc5UDIyRy05YS1RRzVqN01scWlqV3R6X3JvX1F0MVBpc1ZncHpyOUs5ZHh6aWhPODI1OHRkdWlaajdDRGk4OFpMNU1mOWpXR2NpSnB3TjBwYlN4a1lpR3hDMmZQV2VBQTh6QmZsRVc4ei11dTM1VE5XbWVSRUhNUmFBWnpWQUgySXVyMFl5WDMyUGpWd25OWm8tVUJLME1kWjhOelY2RHQtdlZLdFViVEZ2bXNBMWgtQTcxcGZsSC1jU1E3a18?oc=5"
     },
     {
       "id": "growth-3",
-      "title": "Order Dinner by Snapping a Photo with AI",
-      "description": "DoorDash is launching exciting updates that let you order food or book reservations simply by taking photos or using chat prompts. This helpful upgrade makes ordering food as easy as texting a picture of your favorite pizza to a friend.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WZ0gradmFVbHkwZ2FmZGRHcGZ2b3FPcXdjOXhtN3lGNlRpZFMxak1idFlxUk00bHRXUGVXUGsyZ0QzZjltelo1X01NTGR2MUswZnZVQU1NcVp0Zl9tM1Zwdjd3X1IyaHF2Z3I3UnRhdUxHaFJ0QlJR0gF8QVVfeXFMTUdJMTRKR3MyelB1WHR0NWI4dHhfQ3pSV21RM29oeGlvczdnLVFWTllOSUE1VG5PUlpQa25QNUs4OVI3MVZYMWxBVjk0WHowbk9Qa1dpN2szeEUxLU0xT21Hd0hJdmlyU2lWZ1FxOW9vQk1sRks1WmRwM2tCNA?oc=5"
+      "title": "Global patent experts meet to spark AI creativity",
+      "description": "The world's five largest patent offices met in Tokyo to talk about how artificial intelligence can help protect new inventions. This teamwork ensures that inventors everywhere have the tools they need to share their creations with the world safely.",
+      "source": "epo.org",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGd6LXpIVmlqZTFwTTJ6ZmdQaTdMcUxjWE41cmRnNURfR2NNbk9KOWVxd0pIcGdhUS1zTWRHN3REZHk2WXpsRzNuQzVhWUJ4Um5pSl9MTnVsakZBMjlYajliWkNsbUtxOVdKWHpIcU1UbXpYRVdYbDVJSGI1WVVTSVZqNVAtdzdSUlU2UUdULTBTTXNtYy1XYjBCNmtJRzhMVXVlaGtjSFZ0SnZjcktfMjA3OFF2LTRIbUE?oc=5"
     }
   ],
   "tech_news": [
     {
       "id": "tech-1",
-      "title": "Learn to Build Your Own Planning AI Agent",
-      "description": "A new tutorial shows how kids and coders can build a custom AI agent from scratch. This project is like teaching a virtual robot how to plan its day, deciding all the steps to tidy up its room before it actually starts moving any toys.",
-      "source": "Medium",
-      "url": "https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d"
+      "title": "Jeff Bezos starts a new bet to build 'Super AI Engineers'",
+      "description": "Amazon's founder Jeff Bezos is funding a project to build an 'Artificial General Engineer.' Imagine a friendly digital robotic buddy that is so smart, it can design, code, and fix computer software all by itself like a master digital mechanic!",
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeDhROFlxRnA4ZTVnal9hMHh2aXBvd2JDTGN4cDV5bE8zdy1DQmRaWFdYY2ZqMmFidC1YdXNtSi1MaDhOWEFUTEluTFRFRzF6MC1fbW1USUhqaGc2VjJYanpUVEVaNmtmbVpvUGJDeUtqVWFaTXFnMTFiUWpjd0hOVEtlbW1Da3V2VERpM0Q4cVM3emFwZFBtbjFxUlY3TnZZYWR3Q2tJaWxDanN1S0Y5Z2F2OExZczN6eS1UYVlpUFBLMm9DSWdxWUl6bU9NUDdQelhuN1dUZ0xTbnBxc0NYSDRYS2gwbllXcUdHQmotMNIB9wFBVV95cUxPbkhxU3dnOE1qblR2M1NJOWw2MGlpbV96cjBlTi1TZFNVMDA2VmkycWc5d1BTcmVpMmJjNTBjVmZPZVphbmFVQ2dkdUl4S1R3dm9WUnpqcldEOXh3QU9sUHdjdXpaWlhfWWdIOGpFN0NHZ2pSaDRQblo1WkJvc3k3dExaOVAzcWFsVmdVa2xkNG9kU3ZyQmJFZEx4N2x6TFV4NW8wQWZ1ejVZZWtpRXdFQTVoYnRIeFVURXJLS2FuVE83Zy1wamRtNnFpNk1GOHo0azN1dll1QjFiLVB0T3ZZWHJ2dTdjc3VScFRDV3czYWRBd085R3o0?oc=5"
     },
     {
       "id": "tech-2",
-      "title": "The Quest to Build an 'Artificial General Engineer'",
-      "description": "Tech builders want to create a highly skilled 'General Engineer' AI that can help design complex systems. Imagine having an expert LEGO master inside your computer who knows how to design and build anything you can dream up.",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeUpUUl9lcDUwVDctMUNOSGZWYnh4bkZtM0NDVmRvbU1DbllKY0RLTk5LYWdwM1g3dUF6cnhSNTNDZ3VoM09ja19XZk9VVzlzWEwyR1dvTnMzTWdwNmJGOFlTTnZ5QU5kOWVRMmVpZWVhR3RLLVRmS1FLa2dneFVid2xueXdpQQ?oc=5"
+      "title": "Engineers are reinventing how we build software with AI",
+      "description": "Tech teams are moving to 'AI-native development,' meaning they are using AI as an interactive partner instead of just a basic helper. It is like coding with an ultra-smart co-pilot who writes code on the fly as you talk about what you want your website to do.",
+      "source": "Amazon Web Services (AWS)",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcVJURHFsMTlVSHY5RDR1bnBYZWdWNDR4aVMyV2xHS0hCRmJwS0l3NEsyejFiZGN3MFZLbmJ6QWExWm9MNlNtMUN4LVVKVGl1V3dJeTZqM2M0bE55T2hPZk9mYWNkaEloTTlDdUxIbTZ2OWs4VkZhb1FsSlB1dEVTQ0pXYXJSQ0laNXVwX1I2RFNOWEd0N2VpNDhSRFREbjhDQ2ZjYjBB?oc=5"
     },
     {
       "id": "tech-3",
-      "title": "AI Joins the Race to Win Le Mans",
-      "description": "Top racing teams are using AI to make split-second decisions during the famous 24-hour Le Mans endurance race. It works like a super-smart video game coach that calculates the absolute perfect moment to change tires, helping the driver stay safe and fast.",
-      "source": "24 Heures du Mans",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOam5LN1BOSnNCSWtkYkU1S1djTnVPRzQxYTlueHdZcnM3bEw4MkJjU1FieEwtdlIxN0ZJUlJmSHNPanUtTzBGUzRRR2pYY3JSbWRTRjk5NmkyUlNNNS1NWGViUnVfWEdvckFwX2pXcHNOVDhrbUxhV3ZvTkZyYnI4OU5uZDNrNGtuS0NreUdIYUxxRFR0NkdqdEV2eFRhTDlPYlJTUG5LT2hSSEM4dHlkcjI2ODQzbUZOYzVjVkN4SUJMQmU5eml6RWNn?oc=5"
+      "title": "Mbodi AI is building smart robots that learn on their own!",
+      "description": "A new company called Mbodi AI is hiring creators to build 'smart brains' for physical robots. Instead of coding every single tiny step, they are training robots to look at the world, learn from trial and error, and figure out how to help around the house on their own.",
+      "source": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer"
     }
   ],
   "jargons": [
     {
       "id": "neural_network",
       "term": "Neural Network",
-      "definition": "A computer program that learns to find patterns by mimicking how cells in the human brain talk to each other.",
-      "example": "Like a big team of friends holding hands, passing clues along until they finally guess the right secret word.",
-      "use_case": "Helping computers recognize if a photo shows a cute cat or a playful dog."
+      "definition": "A computer system modeled after the human brain that learns patterns from data.",
+      "example": "Think of it like a huge network of tree branches that help a computer pass notes until it guesses the right answer.",
+      "use_case": "Helping self-driving cars recognize stop signs and pedestrians."
     },
     {
       "id": "self_attention",
       "term": "Self-Attention",
-      "definition": "A clever technique that lets an AI look at all parts of a sentence at once to decide which words are the most important.",
-      "example": "When you hear 'The giant robot ate the tree because it was hungry,' attention helps you connect 'it' to the hungry 'robot' rather than the 'tree.'",
-      "use_case": "Powering translators so that foreign languages sound natural and make perfect sense."
+      "definition": "A smart mathematical trick that helps computers focus on the most important words in a sentence.",
+      "example": "Like reading a book and highlighting only the most exciting action words to understand the plot instantly.",
+      "use_case": "Translating languages accurately from English to Spanish without mixing up the order of words."
     },
     {
       "id": "rag",
-      "term": "RAG (Retrieval-Augmented Generation)",
-      "definition": "A process where an AI searches through trustworthy articles or books to find accurate facts before giving you an answer.",
-      "example": "It's like an open-book quiz where you get to double-check the school textbook before writing down your final answer.",
-      "use_case": "Helping school chatbots answer history questions with 100% correct facts."
+      "term": "Retrieval-Augmented Generation (RAG)",
+      "definition": "A process where an AI searches an external database of trusted information before formulating its response.",
+      "example": "Like taking an open-book history quiz where you get to look up facts in a safe, vetted library first.",
+      "use_case": "Helping chatbots answer questions about specific school textbooks without making things up."
     },
     {
       "id": "reinforcement_learning",
       "term": "Reinforcement Learning",
-      "definition": "Training an AI by letting it try different actions and rewarding it with virtual points whenever it gets closer to a goal.",
-      "example": "Teaching your puppy to roll over by giving them a delicious biscuit every time they follow your hand motion.",
-      "use_case": "Training computer programs to play and beat complex video games entirely on their own."
+      "definition": "A method of training AI models through rewards and corrections.",
+      "example": "Like training a digital puppy to fetch—giving it virtual dog treats whenever it does a good job.",
+      "use_case": "Teaching AI players to win complicated video games like Chess or Go on their own."
     },
     {
       "id": "fine_tuning",
       "term": "Fine-Tuning",
-      "definition": "Taking an AI that is already smart and giving it extra practice in one specific subject to make it an expert.",
-      "example": "A student who is already great at general science taking a special week-long camp to learn all about dinosaur bones.",
-      "use_case": "Teaching a general-purpose writing bot how to sound exactly like a medical doctor or a fun storyteller."
+      "definition": "Taking a pre-trained general AI model and training it further on a small, specific set of data.",
+      "example": "Taking a very smart student who knows basic reading, and giving them a special workbook all about dinosaur fossils.",
+      "use_case": "Adapting a general chatbot to talk like a friendly space-explorer guide for a science museum."
     }
   ],
   "tools": [
     {
       "id": "tool-1",
       "name": "Cursor",
-      "tagline": "Code with AI",
-      "trending_factor": "This smart code editor helps creators build games and apps instantly by predicting what they want to code next.",
-      "url": "https://www.cursor.com/"
+      "tagline": "Your AI Co-Coder",
+      "trending_factor": "Creators and kids love using it because you can ask the editor to write complex programming code in plain English.",
+      "url": "https://cursor.com"
     },
     {
       "id": "tool-2",
       "name": "NotebookLM",
-      "tagline": "Your Study Buddy",
-      "trending_factor": "You can upload notes, and it instantly generates fun study guides, quizzes, and even realistic podcast discussions.",
-      "url": "https://notebooklm.google/"
+      "tagline": "Study Buddy Podcast",
+      "trending_factor": "This tool automatically turns boring homework notes or textbooks into an exciting, entertaining audio podcast show.",
+      "url": "https://notebooklm.google.com"
     },
     {
       "id": "tool-3",
-      "name": "v0",
-      "tagline": "Websites from Prompts",
-      "trending_factor": "Let's you design and code functional website screens in seconds just by typing what you want in simple English.",
-      "url": "https://v0.dev/"
+      "name": "v0 by Vercel",
+      "tagline": "Websites In Seconds",
+      "trending_factor": "Allows young creators to describe their dream website in text, and immediately builds a beautiful design they can interact with.",
+      "url": "https://v0.dev"
     },
     {
       "id": "tool-4",
       "name": "Midjourney",
-      "tagline": "Imagine Anything Visually",
-      "trending_factor": "Generates magical, museum-quality artwork and fantastical scenes from your most creative descriptions.",
-      "url": "https://www.midjourney.com/"
+      "tagline": "Paint With Words",
+      "trending_factor": "It allows anyone to generate highly realistic, gorgeous artwork just by describing their wildest imagination.",
+      "url": "https://midjourney.com"
     },
     {
       "id": "tool-5",
       "name": "ElevenLabs",
-      "tagline": "Voices Come Alive",
-      "trending_factor": "Allows young creators to generate cool voices and sound effects for their animation projects and school presentations.",
-      "url": "https://elevenlabs.io/"
+      "tagline": "Voices Made Virtual",
+      "trending_factor": "Perfect for school projects and stories, it allows users to create expressive, life-like voiceovers using AI.",
+      "url": "https://elevenlabs.io"
     }
   ],
   "models": [
     {
       "name": "Claude 3.5 Sonnet",
       "developer": "Anthropic",
-      "parameters": "150 Billion (Estimated)",
+      "parameters": "Proprietary",
       "context_window": 200000,
       "mmlu_score": 88.7,
       "cost_per_million": 3.0
@@ -132,16 +132,16 @@
     {
       "name": "GPT-4o",
       "developer": "OpenAI",
-      "parameters": "Proprietary (Multi-modal)",
+      "parameters": "Proprietary",
       "context_window": 128000,
       "mmlu_score": 88.7,
-      "cost_per_million": 2.5
+      "cost_per_million": 5.0
     },
     {
       "name": "Gemini 1.5 Pro",
       "developer": "Google",
-      "parameters": "Proprietary (Mixture of Experts)",
-      "context_window": 2000000,
+      "parameters": "Proprietary",
+      "context_window": 1000000,
       "mmlu_score": 85.9,
       "cost_per_million": 1.25
     },
@@ -165,7 +165,7 @@
   "courses": [
     {
       "title": "AI for Everyone",
-      "provider": "Coursera",
+      "provider": "DeepLearning.AI",
       "instructor": "Andrew Ng",
       "level": "Beginner",
       "duration": "6 hours",
@@ -182,63 +182,63 @@
     {
       "title": "Elements of AI",
       "provider": "University of Helsinki",
-      "instructor": "Reijo Sund",
+      "instructor": "Teemu Roos",
       "level": "Beginner",
       "duration": "30 hours",
       "url": "https://www.elementsofai.com/"
     },
     {
-      "title": "Machine Learning Zoomcamp",
-      "provider": "DataTalks.Club",
-      "instructor": "Alexey Grigorev",
-      "level": "Intermediate",
-      "duration": "40 hours",
-      "url": "https://datatalks.club/courses/machine-learning-zoomcamp.html"
+      "title": "Generative AI for Beginners",
+      "provider": "Microsoft",
+      "instructor": "Microsoft Cloud Advocates",
+      "level": "Beginner",
+      "duration": "12 hours",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners"
     },
     {
-      "title": "Practical Deep Learning for Coders",
-      "provider": "Fast.ai",
-      "instructor": "Jeremy Howard",
+      "title": "CS50's Introduction to AI with Python",
+      "provider": "Harvard University",
+      "instructor": "David J. Malan",
       "level": "Intermediate",
-      "duration": "20 hours",
-      "url": "https://course.fast.ai/"
+      "duration": "40 hours",
+      "url": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python"
     }
   ],
   "blogs": [
     {
-      "title": "AI Explained in Simple Terms",
-      "author": "Various Researchers",
-      "site": "The Gradient",
-      "read_time": "12 minutes",
-      "url": "https://thegradient.pub/"
-    },
-    {
-      "title": "Visualizing How Deep Learning Works",
-      "author": "Distill Team",
-      "site": "Distill",
-      "read_time": "15 minutes",
-      "url": "https://distill.pub/"
-    },
-    {
-      "title": "Fun Discoveries in Artificial Intelligence",
-      "author": "OpenAI Researchers",
-      "site": "OpenAI Blog",
+      "title": "How to Build a GPT-4o Chatbot",
+      "author": "Roboflow Team",
+      "site": "Roboflow Blog",
       "read_time": "8 minutes",
-      "url": "https://openai.com/blog/"
+      "url": "https://blog.roboflow.com"
     },
     {
-      "title": "The Science Behind Modern AI Agents",
+      "title": "Understanding Large Language Models",
+      "author": "Andrej Karpathy",
+      "site": "Karpathy Medium",
+      "read_time": "15 minutes",
+      "url": "https://medium.com/@karpathy"
+    },
+    {
+      "title": "AI News and Trends Explained Simply",
+      "author": "The Batch Staff",
+      "site": "DeepLearning.AI The Batch",
+      "read_time": "5 minutes",
+      "url": "https://www.deeplearning.ai/the-batch/"
+    },
+    {
+      "title": "Lil'Log: Friendly Deep Learning Explanations",
       "author": "Lilian Weng",
       "site": "Lil'Log",
-      "read_time": "25 minutes",
-      "url": "https://lilianweng.github.io/"
+      "read_time": "20 minutes",
+      "url": "https://lilianweng.github.io/posts/"
     },
     {
-      "title": "How to Train Your Own Small AI Models",
-      "author": "Andrej Karpathy",
-      "site": "Karpathy's GitHub Blog",
-      "read_time": "18 minutes",
-      "url": "https://karpathy.github.io/"
+      "title": "The Gradient: Democratizing AI News",
+      "author": "Gradient Editors",
+      "site": "The Gradient",
+      "read_time": "10 minutes",
+      "url": "https://thegradient.pub"
     }
   ]
 }
